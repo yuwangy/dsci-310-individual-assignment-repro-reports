@@ -31,7 +31,8 @@ title: "Aim"
 output:
   html_document:
     toc: true
-    toc_depth: 2
+    toc_depth: 4
+    number_sections: true
 ---
 
 This project explores the historical population of horses in Canada between 1906 and 1972 for each province.
@@ -42,7 +43,8 @@ title: "Data"
 output:
   html_document:
     toc: true
-    toc_depth: 2
+    toc_depth: 4
+    number_sections: true
 ---
 
 Horse population data were sourced from the [Government of Canada's Open Data website](http://open.canada.ca/en/open-data) (Government of Canada, 2017a and Government of Canada, 2017b).
@@ -52,7 +54,8 @@ title: "Methods"
 output:
   html_document:
     toc: true
-    toc_depth: 2
+    toc_depth: 4
+    number_sections: true
 ---
 
 The R programming language (R Core Team, 2019) and the following R packages were used to perform the analysis: knitr (Xie 2014), tidyverse (Wickham 2017), and bookdown (Xie 2016). *Note: this report is adapted from (Timbers 2020).*
@@ -62,7 +65,8 @@ title: "Results"
 output:
   html_document:
     toc: true
-    toc_depth: 2
+    toc_depth: 4
+    number_sections: true
 ---
 
 See Figure \@ref(fig:plot of horse population).
