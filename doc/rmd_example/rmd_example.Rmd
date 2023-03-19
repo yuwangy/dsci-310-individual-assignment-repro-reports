@@ -9,7 +9,7 @@ bibliography:
   references.bib
 ---
 
-```{r include=FALSE}
+```{r include=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
 
 provinceFunc <- "Saskatchewan"
 #provinceFunc <- "Alberta"
@@ -20,7 +20,7 @@ provinceFunc <- "Saskatchewan"
 
 
 
-```{r}
+```{r include=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 ```
 
@@ -71,7 +71,7 @@ output:
 
 See Figure \@ref(fig:plot of horse population).
 
-```{r, echo=FALSE, out.width="50%", fig.cap="plot of horse population"}
+```{r, echo=FALSE, warning=FALSE, out.width="50%", fig.cap="plot of horse population"}
 knitr::include_graphics("../../results/horse_pops_plot.png")
 
 ```
@@ -84,7 +84,7 @@ Suppose we were interested in looking in more closely at the province with the h
 
 See Table \@ref(tab:table of horse population).
 
-```{r}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 horses_sd_table <- read_csv("../../results/horses_sd.csv")
 largest_sd <- horses_sd_table$Province[1]
 knitr::kable(horses_sd_table)
