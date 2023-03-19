@@ -55,8 +55,9 @@ output:
     toc_depth: 2
 ---
 
-```{r}
+```{r horses_pop, fig.cap="plot of horse population"}
 knitr::include_graphics("../../results/horse_pops_plot.png")
+
 ```
 
 Figure 1: Horse populations for all provinces in Canada from 1906 - 1972
@@ -78,7 +79,7 @@ $$s = sqrt( sum_{i = 1}^n(x_i - \bar{x}) / (n-1))$$
 
 Additionally, note that in Table 1 we consider the sample standard deviation of the number of horses during the same time span as Figure1.
 
-```{r}
+```{r horses_pop_sd, fig.cap="plot of horse population with largest sd"}
 knitr::include_graphics("../../results/horse_pop_plot_largest_sd.png")
 ```
 
