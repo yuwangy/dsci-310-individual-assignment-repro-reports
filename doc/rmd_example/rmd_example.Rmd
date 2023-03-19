@@ -9,6 +9,16 @@ bibliography:
   references.bib
 ---
 
+```{r include=FALSE}
+
+provinceFunc <- "Saskatchewan"
+#provinceFunc <- "Alberta"
+#provinceFunc <- "Ontario"
+#provinceFunc <- "BC"
+#provinceFunc <- "PEI"
+```
+
+
 
 ```{r}
 library(tidyverse)
@@ -91,6 +101,6 @@ knitr::include_graphics("../../results/horse_pop_plot_largest_sd.png")
 
 Figure 2: Horse populations for the province with the largest standard deviation
 
-In Figure 2 we zoom in and look at the province of ?, which had the largest spread of values in terms of standard deviation.
+In Figure 2 we zoom in and look at the province of `r provinceFunc`, which had the largest spread of values in terms of standard deviation.
 
 References
