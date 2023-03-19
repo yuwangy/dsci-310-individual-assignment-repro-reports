@@ -57,7 +57,7 @@ output:
 
 See Figure \@ref(fig:plot of horse population).
 
-```{r horses_pop, fig.cap="plot of horse population"}
+```{r, echo=FALSE, out.width="50%", fig.cap="plot of horse population"}
 knitr::include_graphics("../../results/horse_pops_plot.png")
 
 ```
@@ -85,7 +85,7 @@ Additionally, note that in Table 1 we consider the sample standard deviation of 
 
 See Figure \@ref(fig:plot of horse pop with largest sd).
 
-```{r horses_pop_sd, fig.cap="plot of horse population with largest sd"}
+```{r, echo=FALSE, out.width="50%", fig.cap="plot of horse population with largest sd"}
 knitr::include_graphics("../../results/horse_pop_plot_largest_sd.png")
 ```
 
