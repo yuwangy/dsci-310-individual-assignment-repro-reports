@@ -3,26 +3,57 @@ title: 'DSCI 310: Historical Horse Population in Canada'
 author: "Tiffany Timbers & Jordan Bourak"
 output:
   bookdown::html_document2
+  
   bookdown::pdf_document2
+bibliography:  
+  references.bib
 ---
+
 
 ```{r}
 library(tidyverse)
 ```
 
-Aim
+This is citation, @R
+
+---
+title: "Aim"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+
 
 This project explores the historical population of horses in Canada between 1906 and 1972 for each province.
 
-Data
+
+---
+title: "Data"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+---
 
 Horse population data were sourced from the [Government of Canada's Open Data website](http://open.canada.ca/en/open-data) (Government of Canada, 2017a and Government of Canada, 2017b).
 
-Methods
+---
+title: "Methods"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+---
 
 The R programming language (R Core Team, 2019) and the following R packages were used to perform the analysis: knitr (Xie 2014), tidyverse (Wickham 2017), and bookdown (Xie 2016). *Note: this report is adapted from (Timbers 2020).*
 
-Results
+---
+title: "Results"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+---
 
 ```{r}
 knitr::include_graphics("../../results/horse_pops_plot.png")
