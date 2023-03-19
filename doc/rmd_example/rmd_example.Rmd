@@ -55,6 +55,8 @@ output:
     toc_depth: 2
 ---
 
+See Figure \@ref(fig:plot of horse population).
+
 ```{r horses_pop, fig.cap="plot of horse population"}
 knitr::include_graphics("../../results/horse_pops_plot.png")
 
@@ -65,6 +67,8 @@ Figure 1: Horse populations for all provinces in Canada from 1906 - 1972
 We can see from Figure 1 that Ontario, Saskatchewan and Alberta have had the highest horse populations in Canada. All provinces have had a decline in horse populations since 1940. This is likely due to the rebound of the Canadian automotive industry after the Great Depression and the Second World War. An interesting follow-up visualisation would be car sales per year for each Province over the time period visualised above to further support this hypothesis.
 
 Suppose we were interested in looking in more closely at the province with the highest spread (in terms of standard deviation) of horse populations. We present the standard deviations here:
+
+See Table \@ref(tab:table of horse population).
 
 ```{r}
 horses_sd_table <- read_csv("../../results/horses_sd.csv")
@@ -78,6 +82,8 @@ Note that we define standard deviation (of a sample) as
 $$s = sqrt( sum_{i = 1}^n(x_i - \bar{x}) / (n-1))$$
 
 Additionally, note that in Table 1 we consider the sample standard deviation of the number of horses during the same time span as Figure1.
+
+See Figure \@ref(fig:plot of horse pop with largest sd).
 
 ```{r horses_pop_sd, fig.cap="plot of horse population with largest sd"}
 knitr::include_graphics("../../results/horse_pop_plot_largest_sd.png")
